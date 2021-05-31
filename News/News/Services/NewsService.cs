@@ -15,7 +15,7 @@ namespace News.Services
 {
     public class NewsService
     {
-        readonly string apiKey = "4dc6a1da34d9496483224817652900bb";
+        readonly string apiKey = ""; //Your api key here from: https://newsapi.org
 
         public readonly ConcurrentDictionary<(NewsCategory, string), NewsApiData> _CachedNews = new ConcurrentDictionary<(NewsCategory, string), NewsApiData>();
 
